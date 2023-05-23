@@ -6,7 +6,7 @@ export const Search = () => {
     return (
         <InputGroup
             mx={10}
-            maxWidth={{ base: '360px', md: "300px" }}
+            maxWidth={{ base: '300px', md: "300px" }}
 
             my={{ base: 3 }}>
             <InputLeftElement>
