@@ -11,7 +11,7 @@ export const Selector: React.FC<SelectorInterfaces.SelectorProps> = ({ title, da
     return (
         <Menu>
             <MenuButton
-                ml={10}
+                mx={5}
                 my={{ base: 3 }}
                 as={Button}
                 width="100%"
