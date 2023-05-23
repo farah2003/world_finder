@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
         <Flex direction="row" align="center" px={7} py={1} >
             <Image src={logo} boxSize="50px" mb={2} mr={2} />
-            <Text fontWeight="bold" fontSize="2xl">World Finder</Text>
+            <Text fontWeight="bold" fontSize="xl">World Finder</Text>
         </Flex>
     );
 };
