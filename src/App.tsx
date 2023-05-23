@@ -16,7 +16,7 @@ const App = () => {
 
       setCountries(searchData.countries);
     }
-  }, [searchData]);
+  }, [searchData, setCountries]);
 
   const handleSearch = () => {
     const filteredCountries = searchData.countries.filter((country: {
