@@ -11,13 +11,14 @@ export const Selector: React.FC<SelectorInterfaces.SelectorProps> = ({ title, da
     return (
         <Menu>
             <MenuButton
+                ml={10}
                 my={{ base: 3 }}
                 as={Button}
                 width="100%"
                 maxWidth={{ base: '360px', md: '225px' }}
                 height="40px"
                 rightIcon={<BsChevronDown />}
-                borderRadius={title === "Continents" ? "5px 0 0 5px" : "0 5px 5px 0"}
+                borderRadius="5px"
             >
                 {(title === "Continents" ? selectedContinent : selectedLanguage) || title}
             </MenuButton>
@@ -31,7 +32,7 @@ export const Selector: React.FC<SelectorInterfaces.SelectorProps> = ({ title, da
                     })}name
                 </Box>
             </MenuList>
-        </Menu >
+        </Menu>
     )
 }
 export default Selector;

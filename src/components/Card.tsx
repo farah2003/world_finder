@@ -7,7 +7,7 @@ const CountryCard = ({ item: { languages, emoji, name, phone, native, continent:
 
         <Card boxShadow="2xl">
             <CardHeader>
-                <Heading size='md'>{emoji} { } {name}</Heading>
+                <Heading size='sm'>{emoji} { } {name}</Heading>
             </CardHeader>
             <CardBody>
                 <Stack divider={<StackDivider />} spacing='4'>
@@ -15,7 +15,7 @@ const CountryCard = ({ item: { languages, emoji, name, phone, native, continent:
                     <CardHeading title={containtName} word={"containt"} />
                     <CardHeading title={phone} word={"phone"} />
                     <Box>
-                        <Heading size='md'>
+                        <Heading size='sm'>
                             languages
                             {languages.map((item) =>
                                 <List spacing={2}>

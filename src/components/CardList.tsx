@@ -5,7 +5,7 @@ import CountryCard from './Card'
 const CardList = () => {
     const { countries } = useAppContext();
     return (
-        <SimpleGrid columns={{ sm: 1, md: 2, lg: 3 }} spacing={20} p={20}>
+        <SimpleGrid columns={{ sm: 1, md: 2, lg: 3 }} spacing={20} px={40} py={20}>
             {countries.map((item) => <CountryCard item={item} />)}
         </SimpleGrid>
     )
