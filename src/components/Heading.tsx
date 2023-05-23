@@ -8,7 +8,7 @@ const Heading: React.FC<HeadingInterfaces.HeadingProps> = ({ handleSearch }) => 
     return (
         <Box bg={color} py={20} >
             <Center flexDirection="column" alignItems="center">
-                <Text fontSize={{ base: "3xl", md: "5xl" }} fontWeight="bold" color="white">Explore countries around the globel</Text>
+                <Text fontSize={{ base: "xl", md: "3xl" }} fontWeight="bold" color="white">Explore countries around the globel</Text>
             </Center>
             <Filter handleSearch={handleSearch} />
 

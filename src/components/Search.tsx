@@ -9,7 +9,7 @@ export const Search = () => {
             maxWidth="250px"
             my={{ base: 3 }}>
             <InputLeftElement>
-                <Box mt={6}>
+                <Box mt={2}>
                     <Icon as={BsSearch} boxSize={6} fontWeight="bolder" my={20} />
                 </Box>
             </InputLeftElement>
