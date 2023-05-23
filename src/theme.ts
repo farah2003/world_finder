@@ -18,7 +18,7 @@ export const theme = extendTheme({
             field: {
               bg: 'white',
               borderRadius: '5px',
-              height: '60px',
+              height: '40px',
               _focus: {
                 bg: 'white',
                 outline: 'none',

@@ -16,7 +16,7 @@ export const Selector: React.FC<SelectorInterfaces.SelectorProps> = ({ title, da
                 as={Button}
                 width="100%"
                 maxWidth={{ base: '360px', md: '225px' }}
-                height="60px"
+                height="40px"
                 rightIcon={<BsChevronDown />}
                 borderRadius="5px"
             >

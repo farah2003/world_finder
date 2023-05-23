@@ -32,9 +32,9 @@ const Filter: React.FC<HeadingInterfaces.FilterProps> = ({ handleSearch }) => {
             <Search />
             <Button
                 colorScheme="red"
-                height="60px"
+                height="40px"
                 width="100%"
-                maxWidth={{ base: '360px', md: '180px' }}
+                maxWidth={{ base: '360px', md: '130px' }}
                 onClick={() => handleSearch()}
             >
                 Let's go
