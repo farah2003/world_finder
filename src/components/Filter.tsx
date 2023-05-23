@@ -34,7 +34,7 @@ const Filter: React.FC<HeadingInterfaces.FilterProps> = ({ handleSearch }) => {
                 colorScheme="red"
                 height="40px"
                 width="100%"
-                maxWidth={{ base: '360px', md: '130px' }}
+                maxWidth={{ base: '300px', md: '130px' }}
                 onClick={() => handleSearch()}
             >
                 Let's go
